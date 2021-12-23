@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lato:wght@300&family=Nunito:ital@1&family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+
+
+.nav-bar {
+    background-color: #404eed;
+    padding-bottom: 235px;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    position: relative;
+    top: -43px;
+    left: 1435px;
+    font-size: 13px;
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 82px;
+    padding: 8px 8px;
+}
+
+.imagine {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+}
+
+.pp {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    align-self: center;
+}
