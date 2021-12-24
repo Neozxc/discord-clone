@@ -1,20 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lato:wght@300&family=Nunito:ital@1&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lato:wght@300&family=Nunito:ital@1&family=PT+Sans:wght@700&family=Source+Code+Pro&display=swap');
+
 
 * {
     margin: 0; padding: 0;
-    font-family: 'Inconsolata', monospace;
-    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
 }
 
+
+
+
+.nav-bar .clickable img{
+    width: 130px;
+    margin-bottom: -57px;
+    padding-left: 350px;
+    color: white;
+    pointer-events: auto;
+}
 
 
 .nav-bar {
+    pointer-events: none;
     background-color: #404eed;
-    padding-bottom: 235px;
+    padding-bottom: 150px;
+    margin-top: -35px;
 }
 
 .nav-bar li {
+    pointer-events: auto;
     display: inline;
+}
+
+.nav-bar li:hover {
+    text-decoration: underline;
 }
 
 .nav-bar a{
@@ -31,6 +48,8 @@
 }
 
 .button {
+    pointer-events: auto;
+    transition: box-shadow .3s;
     position: relative;
     top: -43px;
     left: 1435px;
@@ -39,7 +58,22 @@
     border-radius: 20px;
     background-color: white;
     width: 82px;
-    padding: 8px 8px;
+    padding: 8px;
+}
+
+.button:hover {
+    color: blue;
+    box-shadow: 0 11px 11px rgba(33,33,33,.2); 
+}
+
+.button a {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-left: -18px;
+    margin-top: -15px;
+    margin-bottom: -17px;
+    color: black;
+    width: 200px;
 }
 
 .imagine {
@@ -57,4 +91,44 @@
     text-align: center;
     color: white;
     align-self: center;
+}
+
+.download {
+    text-align: center;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 18px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 9px;
+
+    position: relative;
+    bottom: -30px;
+    left: 690px;
+
+    box-shadow: 0 11px 11px rgba(33,33,33,.2); 
+    cursor: pointer;
+}
+
+.browser {
+    text-align: center;
+    background-color: #23272a;
+    border: none;
+    color: white;
+    padding: 18px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 9px;
+
+    position: relative;
+    bottom: -30px;
+    left: 760px;
+
+    box-shadow: 0 11px 11px rgba(33,33,33,.2); 
+    cursor: pointer;
 }
