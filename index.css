@@ -142,7 +142,7 @@
 
 .browser:hover {
     transition: 0.3s;
-    background-color: #969696;
+    background-color: #363636;
 }
 
 .createan {
@@ -206,12 +206,14 @@
 }
 
 .createan3 h1 {
+    color: #23272a;
     font-size: 45px;
     margin-top: -350px;
     margin-left: 1200px;
 }
 
 .createan3 p {
+    color: #23272a;
     margin-left: 1200px;
     margin-top: 20px;
     font-size: 18px;
@@ -224,10 +226,12 @@
 }
 
 .createan4 h1 {
+    color: #23272a;
     text-align: center;
 }
 
 .createan4 p {
+    color: #23272a;
     margin-top: 20px;
     text-align: center;
 }
@@ -256,7 +260,6 @@
 
 .createan4 .lastbutton {
     margin-top: 30px;
-    color: black;
     font-size: 8px;
 
     background-color: #5865f2;
@@ -274,8 +277,214 @@
     left: 840px;
 }
 
+.lastbutton h1{
+    color: white;
+}
+
 .lastbutton:hover {
     transition: 0.3s;
     box-shadow: 0 11px 11px rgba(33,33,33,.2); 
     filter: blur(0.3px);
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 90px;
+    padding-bottom: 150px;
+    background-color: #23272a;
+}
+
+.footer .firstthings {
+    color: white;
+    margin-left: 400px;
+}
+
+.footer .firstthings p{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.socials i{
+    margin-left: 10px;
+    margin-top: 25px;
+    color: white;
+}
+
+.socials li {
+    position: relative;
+    margin-top: 30px;
+    font-size: 30px;
+    left: 390px;
+    cursor: pointer;
+    display: inline;
+}
+
+
+.footer .list li {
+    list-style-type: none;
+}
+
+.footer .list {
+    position: relative;
+    margin-left: 750px;
+    margin-top: -150px;
+    color: white;
+}
+
+.footer .list h1 {
+    color: #5865f2;
+    font-size: 16px;
+}
+
+.list {
+    line-height: 30px;
+}
+
+.listZ2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.listZ3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.listZ4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.listZ5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ6:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ7:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ8:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ9:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ10:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ11:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ12:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ13:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ14:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ15:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ16:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ17:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ18:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ19:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ20:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ21:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.listZ22:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer .list2 li {
+    list-style-type: none;
+}
+
+.footer .list2 {
+    position: relative;
+    margin-left: 950px;
+    margin-top: -120px;
+    color: white;
+}
+
+.footer .list2 h1 {
+    color: #5865f2;
+    font-size: 16px;
+}
+
+.list2 {
+    line-height: 30px;
+}
+
+.footer .list3 li {
+    list-style-type: none;
+}
+
+.footer .list3 {
+    position: relative;
+    margin-left: 1170px;
+    margin-top: -150px;
+    color: white;
+}
+
+.footer .list3 h1 {
+    color: #5865f2;
+    font-size: 16px;
+}
+
+.list3 {
+    line-height: 30px;
+}
+
+.footer .list4 li {
+    list-style-type: none;
+}
+
+.footer .list4 {
+    position: relative;
+    margin-left: 1400px;
+    margin-top: -240px;
+    color: white;
+}
+
+.footer .list4 h1 {
+    color: #5865f2;
+    font-size: 16px;
+}
+
+.list4 {
+    line-height: 30px;
 }
