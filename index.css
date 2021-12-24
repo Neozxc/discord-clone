@@ -132,3 +132,25 @@
     box-shadow: 0 11px 11px rgba(33,33,33,.2); 
     cursor: pointer;
 }
+
+.createan {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.createan .text h1{
+    font-size: 45px;
+    margin-left: 1180px;
+}
+
+.createan .text p{
+    line-height: 28px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 1180px;
+}
+
+.image2 {
+    margin-bottom: -400px;
+    margin-left: 330px;
+}
