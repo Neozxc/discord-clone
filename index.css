@@ -139,11 +139,13 @@
 }
 
 .createan .text h1{
+    color: #23272a;
     font-size: 45px;
     margin-left: 1180px;
 }
 
 .createan .text p{
+    color: #23272a;
     line-height: 28px;
     font-size: 18px;
     margin-top: 20px;
@@ -153,4 +155,31 @@
 .image2 {
     margin-bottom: -400px;
     margin-left: 330px;
+}
+
+.createan2 {
+    background-color: #f6f6f6;
+}
+
+.createan2 {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.image3 {
+    margin-left: 900px;
+}
+
+.createan2 h1 {
+    color: #23272a;
+    font-size: 45px;
+    margin-top: -360px;
+    margin-left: 300px;
+}
+
+.createan2 p {
+    color: #23272a;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 18px;
+    line-height: 28px;
 }
