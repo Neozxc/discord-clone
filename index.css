@@ -94,6 +94,7 @@
 }
 
 .download {
+    pointer-events: auto;
     text-align: center;
     background-color: white;
     border: none;
@@ -113,7 +114,13 @@
     cursor: pointer;
 }
 
+.download:hover {
+    transition: 0.3s;
+    color: #5865f2;
+}
+
 .browser {
+    pointer-events: auto;
     text-align: center;
     background-color: #23272a;
     border: none;
@@ -131,6 +138,11 @@
 
     box-shadow: 0 11px 11px rgba(33,33,33,.2); 
     cursor: pointer;
+}
+
+.browser:hover {
+    transition: 0.3s;
+    background-color: #969696;
 }
 
 .createan {
@@ -265,4 +277,5 @@
 .lastbutton:hover {
     transition: 0.3s;
     box-shadow: 0 11px 11px rgba(33,33,33,.2); 
+    filter: blur(0.3px);
 }
