@@ -204,3 +204,65 @@
     margin-top: 20px;
     font-size: 18px;
 }
+
+.createan4 {
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.createan4 h1 {
+    text-align: center;
+}
+
+.createan4 p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.readyornot {
+    margin-top: 100px;
+}
+
+.readyornot img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.readyornot img {
+    margin-bottom: -20px;
+}
+
+.createan4 .lastbutton {
+    margin-top: 30px;
+    color: black;
+    font-size: 8px;
+
+    background-color: #5865f2;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+
+    position: relative;
+    top: 25px;
+    left: 840px;
+}
+
+.lastbutton:hover {
+    transition: 0.3s;
+    box-shadow: 0 11px 11px rgba(33,33,33,.2); 
+}
